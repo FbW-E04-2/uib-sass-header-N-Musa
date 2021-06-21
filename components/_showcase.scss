@@ -1,0 +1,29 @@
+section{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+img{
+    width: 100%;
+}
+/* SECOND SECTION STYLING */
+.text{
+    text-transform: capitalize;
+}
+.text p {
+    margin-top: 2rem;
+    line-height: 25px;
+}
+button{
+    padding: 10px 20px;
+    margin-left: 1rem;
+    transition: 0.3s;
+    border-radius: 1rem;
+    border: none;
+}
+button:hover{
+    transform: scale(1.2) translateY(-20px);
+    background-color: rgb(230, 202, 81);
+}
